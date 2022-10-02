@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .center {
+        @apply flex pt-24 justify-center w-screen min-h-screen;
+    }
+
+    .center-div {
+        @apply border-gray-300 rounded-lg shadow-xl;
+    }
+}
