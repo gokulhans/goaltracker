@@ -33,7 +33,7 @@ function Card(props) {
                     to={{
                         pathname: `/project/${props.post.id}`,
                         state: { posts: props.post }
-                    }} className="relative block p-8 border border-gray-50 hover:border-gray-100 hover:shadow-xl rounded-xl" >
+                    }} className="relative block p-8  bg-indigo-900 hover:border-gray-100 hover:shadow-xl rounded-xl" >
 
                     {props.isAuth && props.post.author.id === auth.currentUser.uid && (
                         <>
@@ -47,8 +47,8 @@ function Card(props) {
                             </button>
                         </>
                     )}
-                    <div className="mt-4 text-gray-500 sm:pr-8">
-                        <h5 className="mt-4 text-xl font-bold text-gray-900"> {props.post.title}</h5>
+                    <div className="mt-4 text-gray-500 sm:pr-8 ">
+                        <h5 className="mt-4 text-xl font-bold text-white"> {props.post.title}</h5>
                         <p className=" mt-2 text-sm sm:block">
                             {props.post.author.name}
                         </p>

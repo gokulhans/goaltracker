@@ -19,10 +19,10 @@ function Navbar() {
 
     return (
         <>
-            <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+            <nav className="bg-blueGray-900/10 px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 ">
                 <div className="container flex flex-wrap justify-between items-center mx-auto">
                     <Link to="/" className="flex items-center">
-                        <span className="self-center text-xl font-semibold whitespace-nowrap text-black dark:text-white ml-3"><b>Goal Tracker</b></span>
+                        <span className="self-center text-xl font-semibold whitespace-nowrap text-white dark:text-white ml-3 mb-3 z-0"><b>Goal Tracker</b></span>
                     </Link>
                     <div className='flex'>
                         {!isAuth ? (

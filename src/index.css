@@ -11,3 +11,7 @@
         @apply border-gray-300 rounded-lg shadow-xl;
     }
 }
+
+body{
+    background: #050A30;
+}
